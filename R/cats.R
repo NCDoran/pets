@@ -7,4 +7,8 @@ cats <- function(love = TRUE) {
   }
   return(print(msg))
 }
-load_all()
+cats()
+cats(TRUE)
+cats(FALSE)
+cats("meh")
+check()
